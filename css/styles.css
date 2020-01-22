@@ -192,11 +192,11 @@ body:after {
   box-sizing: border-box;
 }
 
-/*
 *:before, *:after {
   box-sizing: inherit;
 }
 
+/*
 @-webkit-keyframes light {
   0%, 100% {
     opacity: 0.5;
