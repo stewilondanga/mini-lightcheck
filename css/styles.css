@@ -63,12 +63,12 @@
   transition-delay: 0s;
 }
 
-/*.handle [type="checkbox"]:checked ~ .blade:after {
+.handle [type="checkbox"]:checked~.blade:after {
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
-.toggle {
+/*.toggle {
   width: 20px;
   height: 12px;
   border-radius: 6px;
