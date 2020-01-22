@@ -50,13 +50,14 @@
   display: none;
 }
 
-/*.handle [type="checkbox"]:checked + .toggle:after {
+.handle [type="checkbox"]:checked+.toggle:after {
   background: #00ccff;
   box-shadow: 0 0 4px rgba(0, 204, 255, 0.3);
   -webkit-transform: translateX(8px);
-          transform: translateX(8px);
+  transform: translateX(8px);
 }
-.handle [type="checkbox"]:checked ~ .blade {
+
+/*.handle [type="checkbox"]:checked ~ .blade {
   opacity: 1;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
