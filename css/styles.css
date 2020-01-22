@@ -116,7 +116,7 @@
   top: 0;
 }
 
-/*.blade {
+.blade {
   width: 40px;
   height: 80%;
   position: absolute;
@@ -126,9 +126,10 @@
   -webkit-transition-property: opacity;
   transition-property: opacity;
   -webkit-transition-delay: 0.3s;
-          transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
-.blade:before, .blade:after {
+
+/*.blade:before, .blade:after {
   content: "";
   position: absolute;
   width: 100%;
