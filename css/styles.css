@@ -57,12 +57,13 @@
   transform: translateX(8px);
 }
 
-/*.handle [type="checkbox"]:checked ~ .blade {
+.handle [type="checkbox"]:checked~.blade {
   opacity: 1;
   -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+  transition-delay: 0s;
 }
-.handle [type="checkbox"]:checked ~ .blade:after {
+
+/*.handle [type="checkbox"]:checked ~ .blade:after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
