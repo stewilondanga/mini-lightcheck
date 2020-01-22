@@ -106,7 +106,7 @@
   z-index: 3;
 }
 
-/*.hilt:after {
+.hilt:after {
   content: "";
   border: 24px solid transparent;
   border-bottom: 0;
@@ -116,7 +116,7 @@
   top: 0;
 }
 
-.blade {
+/*.blade {
   width: 40px;
   height: 80%;
   position: absolute;
