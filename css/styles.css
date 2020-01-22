@@ -137,22 +137,23 @@
   top: 0;
 }
 
-/*.blade:after {
+.blade:after {
   right: -2px;
   border-radius: 0 100% 100% 0;
   background: radial-gradient(ellipse at center left, white, #00ccff);
   z-index: 1;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.6, 0.45, 0.26, 1.32) 0.1s;
   transition: -webkit-transform 0.4s cubic-bezier(0.6, 0.45, 0.26, 1.32) 0.1s;
   transition: transform 0.4s cubic-bezier(0.6, 0.45, 0.26, 1.32) 0.1s;
   transition: transform 0.4s cubic-bezier(0.6, 0.45, 0.26, 1.32) 0.1s, -webkit-transform 0.4s cubic-bezier(0.6, 0.45, 0.26, 1.32) 0.1s;
   will-change: transform;
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
 }
-.blade:before {
+
+/*.blade:before {
   right: 0;
   opacity: 0;
   background: #00ccff;
