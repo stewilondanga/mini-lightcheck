@@ -196,16 +196,17 @@ body:after {
   box-sizing: inherit;
 }
 
-/*
 @-webkit-keyframes light {
   0%, 100% {
     opacity: 0.5;
   }
+
   50% {
     opacity: 1;
   }
 }
 
+/*
 @keyframes light {
   0%, 100% {
     opacity: 0.5;
