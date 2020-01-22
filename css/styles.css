@@ -79,7 +79,7 @@
   z-index: 1;
 }
 
-/*.toggle:after {
+.toggle:after {
   content: "";
   position: absolute;
   top: 2px;
@@ -95,7 +95,7 @@
   will-change: transform;
 }
 
-.hilt {
+/*.hilt {
   height: 24px;
   width: 14px;
   position: absolute;
