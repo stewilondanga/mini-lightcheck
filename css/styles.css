@@ -36,7 +36,7 @@
   background: radial-gradient(circle at center right, transparent 45%, #333 45%, #333 48%, transparent 48%, transparent 58%, #333 58%, #333 61%, transparent 61%, transparent 71%, #333 71%, #333 74%, transparent 74%);
 }
 
-/*.handle:before {
+.handle:before {
   width: 10px;
   height: 100%;
   border-radius: 100%;
@@ -45,7 +45,8 @@
   top: 0;
   box-shadow: -2px 0 #333;
 }
-.handle [type="checkbox"] {
+
+/*.handle [type="checkbox"] {
   display: none;
 }
 .handle [type="checkbox"]:checked + .toggle:after {
