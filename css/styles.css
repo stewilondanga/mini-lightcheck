@@ -68,7 +68,7 @@
   transform: scaleX(1);
 }
 
-/*.toggle {
+.toggle {
   width: 20px;
   height: 12px;
   border-radius: 6px;
@@ -78,7 +78,8 @@
   position: relative;
   z-index: 1;
 }
-.toggle:after {
+
+/*.toggle:after {
   content: "";
   position: absolute;
   top: 2px;
