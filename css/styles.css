@@ -206,17 +206,17 @@ body:after {
   }
 }
 
-/*
 @keyframes light {
   0%, 100% {
     opacity: 0.5;
   }
+
   50% {
     opacity: 1;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
