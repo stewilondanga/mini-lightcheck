@@ -188,12 +188,11 @@ body:after {
   animation: light 2s ease-in-out 0.3s infinite;
 }
 
-/*
-
-
 * {
   box-sizing: border-box;
 }
+
+/*
 *:before, *:after {
   box-sizing: inherit;
 }
